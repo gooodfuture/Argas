@@ -1,4 +1,6 @@
-# Argas
+FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+ if (folderBrowserDialog.ShowDialog() == DialogResult.OK) { path = folderBrowserDialog.SelectedPath; } else { }
+ # Argas
 OpenFileDialog fileDialog = new OpenFileDialog();        
 fileDialog.Multiselect = true;           
 fileDialog.Title = "请选择文件";           
